@@ -1,199 +1,198 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins', sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
 }
-.container{
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #df9aff, #95c0ff);
-    color: white;
-    padding-top: 4%;
-    padding-left: 10%;
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #df9aff, #95c0ff);
+  color: white;
+  padding-top: 4%;
+  padding-left: 10%;
 }
-.container h1{
-    display: flex;
-    align-items: center;
-    font-size: 35px;
-    font-weight: 600;
+.container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 600;
 }
-.container h1 img{
-    width: 60px;
+.container h1 img {
+  width: 60px;
 }
-.container button img{
-    width: 25px;
-    margin-right: 8px;
+.container button img {
+  width: 25px;
+  margin-right: 8px;
 }
-.container button{
-    display: flex;
-    align-items: center;
-    background: linear-gradient(#9418fd, #571094);
-    color: white;
-    font-size: 16px;
-    outline: 0;
-    border: 0;
-    border-radius: 40px;
-    padding: 15px 25px;
-    margin: 30px 0 25px;
-    cursor: pointer;
+.container button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#9418fd, #571094);
+  color: white;
+  font-size: 16px;
+  outline: 0;
+  border: 0;
+  border-radius: 40px;
+  padding: 15px 25px;
+  margin: 30px 0 25px;
+  cursor: pointer;
 }
-.input-box{
-    position: relative;
-    width: 100%;
-    max-width: 500px;
-    min-height: 150px;
-    background: white;
-    color: black;
-    padding: 20px;
-    margin: 20px 0;
-    outline: 0;
-    border-radius: 5px;
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: white;
+  color: black;
+  padding: 20px;
+  margin: 20px 0;
+  outline: 0;
+  border-radius: 5px;
 }
-.input-box img{
-    width: 25px;
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    cursor: pointer;
+.input-box img {
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
 }
-
-/* 🖥 Default styles already defined above this section */
+/* Responsive Design for Notes App */
 
 /* 📱 Small phones (up to 480px) */
 @media (max-width: 480px) {
-    .container {
-        padding-left: 5%;
-        padding-top: 15%;
-    }
+  .container {
+    padding-left: 5%;
+    padding-top: 15%;
+  }
 
-    .container h1 {
-        font-size: 24px;
-        flex-direction: column;
-        gap: 8px;
-    }
+  .container h1 {
+    font-size: 24px;
+    flex-direction: column;
+    gap: 8px;
+  }
 
-    .container h1 img {
-        width: 40px;
-    }
+  .container h1 img {
+    width: 40px;
+  }
 
-    .container button {
-        padding: 10px 18px;
-        font-size: 13px;
-    }
+  .container button {
+    padding: 10px 18px;
+    font-size: 13px;
+  }
 
-    .container button img {
-        width: 18px;
-    }
+  .container button img {
+    width: 18px;
+  }
 
-    .input-box {
-        max-width: 100%;
-        min-height: 100px;
-        padding: 12px;
-        font-size: 13px;
-    }
+  .input-box {
+    max-width: 100%;
+    min-height: 100px;
+    padding: 12px;
+    font-size: 13px;
+  }
 
-    .input-box img {
-        width: 18px;
-        bottom: 10px;
-        right: 10px;
-    }
+  .input-box img {
+    width: 18px;
+    bottom: 10px;
+    right: 10px;
+  }
 }
 
 /* 📲 Phones & small tablets (481px - 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
-    .container {
-        padding-left: 6%;
-        padding-top: 10%;
-    }
+  .container {
+    padding-left: 6%;
+    padding-top: 10%;
+  }
 
-    .container h1 {
-        font-size: 28px;
-    }
+  .container h1 {
+    font-size: 28px;
+  }
 
-    .container h1 img {
-        width: 50px;
-    }
+  .container h1 img {
+    width: 50px;
+  }
 
-    .container button {
-        padding: 12px 22px;
-        font-size: 14px;
-    }
+  .container button {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
 
-    .container button img {
-        width: 20px;
-    }
+  .container button img {
+    width: 20px;
+  }
 
-    .input-box {
-        max-width: 100%;
-        min-height: 120px;
-        padding: 15px;
-        font-size: 14px;
-    }
+  .input-box {
+    max-width: 100%;
+    min-height: 120px;
+    padding: 15px;
+    font-size: 14px;
+  }
 
-    .input-box img {
-        width: 20px;
-    }
+  .input-box img {
+    width: 20px;
+  }
 }
 
 /* 💻 Tablets & small laptops (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-    .container {
-        padding-left: 8%;
-        padding-top: 7%;
-    }
+  .container {
+    padding-left: 8%;
+    padding-top: 7%;
+  }
 
-    .container h1 {
-        font-size: 32px;
-    }
+  .container h1 {
+    font-size: 32px;
+  }
 
-    .container h1 img {
-        width: 55px;
-    }
+  .container h1 img {
+    width: 55px;
+  }
 
-    .container button {
-        padding: 14px 24px;
-        font-size: 15px;
-    }
+  .container button {
+    padding: 14px 24px;
+    font-size: 15px;
+  }
 
-    .container button img {
-        width: 22px;
-    }
+  .container button img {
+    width: 22px;
+  }
 
-    .input-box {
-        max-width: 90%;
-        min-height: 140px;
-        font-size: 15px;
-    }
+  .input-box {
+    max-width: 90%;
+    min-height: 140px;
+    font-size: 15px;
+  }
 }
 
 /* 🖥 Large desktops (1025px and up) */
 @media (min-width: 1025px) {
-    .container {
-        padding-left: 10%;
-        padding-top: 4%;
-    }
+  .container {
+    padding-left: 10%;
+    padding-top: 4%;
+  }
 
-    .container h1 {
-        font-size: 35px;
-    }
+  .container h1 {
+    font-size: 35px;
+  }
 
-    .container h1 img {
-        width: 60px;
-    }
+  .container h1 img {
+    width: 60px;
+  }
 
-    .container button {
-        padding: 15px 25px;
-        font-size: 16px;
-    }
+  .container button {
+    padding: 15px 25px;
+    font-size: 16px;
+  }
 
-    .container button img {
-        width: 25px;
-    }
+  .container button img {
+    width: 25px;
+  }
 
-    .input-box {
-        max-width: 500px;
-        min-height: 150px;
-        font-size: 16px;
-    }
+  .input-box {
+    max-width: 500px;
+    min-height: 150px;
+    font-size: 16px;
+  }
 }
