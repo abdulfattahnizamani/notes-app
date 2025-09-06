@@ -64,5 +64,5 @@ open index.html   # Or double-click index.html
 
 ✨ Author
 Abdulfattah Nizamani
-🌐 GitHub | LinkedIn
+🌐 [GitHub](https://github.com/fattahniz) | [LinkedIn](https://linkedin.com/in/fattahniz)
 
