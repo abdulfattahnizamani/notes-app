@@ -15,13 +15,7 @@ A simple, responsive Notes App built using **HTML**, **CSS**, and **JavaScript**
 
 ---
 
-## 🌐 Live Demo
-
-- 🔗 [GitHub Pages](https://fattahniz.github.io/notes-app.git)
-- 🔗 [Vercel](https://notes-42f15tu7b-abdul-fattahs-projects-47120c93.vercel.app/)
-
-📁 Folder Structure
-
+## 📁 Folder Structure
 notes-app/
 ├── index.html
 ├── style.css
@@ -33,14 +27,10 @@ notes-app/
 └── README.md
 
 
-🛠️ Technologies Used
-HTML5
+## 🛠️ Tech Stack
+**Frontend:** HTML, CSS, JavaScript (with localStorage)
 
-CSS3 (with media queries)
-
-JavaScript (DOM + localStorage)
-
-GitHub Pages / Vercel (for deployment)
+**Deployment:** Vercel 
 
 💻 How to Run Locally
 
