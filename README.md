@@ -29,11 +29,15 @@ cd notes-app
 Open index.html directly in your browser or use a Live Server extension in VS Code.
 
 ## 🔮 Future Improvements
- Dark mode toggle
- Drag-and-drop notes
- Export notes
- Category tags
- Firebase sync
+ 1. Dark mode toggle
+ 
+ 2. Drag-and-drop notes
+ 
+ 3. Export notes
+ 
+ 4. Category tags
+
+ 5. Firebase sync
 
 ## 📂 Project Structure
 ```css
@@ -54,11 +58,6 @@ Fork the repo
 1. Create a new branch (feature/my-feature)
 2. Commit changes
 3. Push branch and create a Pull Request
-
-4. 
-## 📄 License
-This project is licensed under the [MIT License](LICENSE) – see the LICENSE
-file for details.
 
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE) – see the LICENSE
