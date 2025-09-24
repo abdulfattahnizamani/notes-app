@@ -13,31 +13,33 @@ A simple, responsive Notes App built using **HTML**, **CSS**, and **JavaScript**
 - 📱 Fully responsive for all screen sizes
 - 🎨 Custom UI with gradients, icons, and animations (optional)
 
----
-
-## 📁 Folder Structure
-notes-app/
-├── index.html
-├── style.css
-├── script.js
-├── images/
-│   ├── notes.png
-│   ├── edit.png
-│   └── delete.png
-└── README.md
-
+## 📂 Project Structure
+```css
+project/
+│── index.html
+│── style.css
+│── main.js
+│── assets/images/
+│          ├── notes.png
+│          ├── edit.png
+│          └── delete.png
+│── README.md
+```
 
 ## 🛠️ Tech Stack
 **Frontend:** HTML, CSS, JavaScript (with localStorage)
 
 **Deployment:** Vercel 
 
-💻 How to Run Locally
-
-git clone https://github.com/yourusername/notes-app.git
+## Installation
+1. Clone the repo
+```bash   
+   git clone https://github.com/fattahniz/notes-app.git
 cd notes-app
-open index.html   # Or double-click index.html
+```
 
+2. Run locally
+Open index.html directly in your browser or use a Live Server extension in VS Code.
 
 🔮 Future Improvements
  Dark mode toggle
@@ -50,9 +52,13 @@ open index.html   # Or double-click index.html
 
  Firebase sync
 
+## 🤝 Contributing
+Fork the repo
 
+1. Create a new branch (feature/my-feature)
+2. Commit changes
+3. Push branch and create a Pull Request
 
-✨ Author
-Abdulfattah Nizamani
-🌐 [GitHub](https://github.com/fattahniz) | [LinkedIn](https://linkedin.com/in/fattahniz)
-
+## 📄 License
+This project is licensed under the [MIT License](LICENSE) – see the LICENSE
+file for details.
