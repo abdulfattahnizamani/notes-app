@@ -13,19 +13,6 @@ A simple, responsive Notes App built using **HTML**, **CSS**, and **JavaScript**
 - 📱 Fully responsive for all screen sizes
 - 🎨 Custom UI with gradients, icons, and animations (optional)
 
-## 📂 Project Structure
-```css
-project/
-│── index.html
-│── style.css
-│── main.js
-│── assets/images/
-│          ├── notes.png
-│          ├── edit.png
-│          └── delete.png
-│── README.md
-```
-
 ## 🛠️ Tech Stack
 **Frontend:** HTML, CSS, JavaScript (with localStorage)
 
@@ -41,16 +28,25 @@ cd notes-app
 2. Run locally
 Open index.html directly in your browser or use a Live Server extension in VS Code.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
  Dark mode toggle
-
  Drag-and-drop notes
-
  Export notes
-
  Category tags
-
  Firebase sync
+
+## 📂 Project Structure
+```css
+project/
+│── index.html
+│── style.css
+│── main.js
+│── assets/images/
+│          ├── notes.png
+│          ├── edit.png
+│          └── delete.png
+│── README.md
+```
 
 ## 🤝 Contributing
 Fork the repo
@@ -58,6 +54,11 @@ Fork the repo
 1. Create a new branch (feature/my-feature)
 2. Commit changes
 3. Push branch and create a Pull Request
+
+4. 
+## 📄 License
+This project is licensed under the [MIT License](LICENSE) – see the LICENSE
+file for details.
 
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE) – see the LICENSE
